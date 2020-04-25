@@ -69,6 +69,7 @@ def main():
                 citations = get_script_citation(args.dataset)
                 for citation in citations:
                     print("Citation:   {}".format(citation))
+
             return
 
         if args.command == 'license':
