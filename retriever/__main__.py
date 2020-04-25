@@ -82,6 +82,7 @@ def main():
                     print("There is no license information for {}".format(args.dataset))
             return
 
+
         if args.command == 'new':
             f = open(args.filename, 'w')
             f.write(sample_script)
